@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "zuviofeedbackbot"
+version = "0.1.0"
+description = ""
+authors = ["Walle 何國瑋 <135415607+walle45611@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+selenium = "^4.27.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
